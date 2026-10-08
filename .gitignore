@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+
+# Database
+*.db
+peerreview.db
+
+# ChromaDB
+chroma_db/
+
+# ML artifacts (generated, not committed)
+backend/artifacts/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+eval/*cache.json

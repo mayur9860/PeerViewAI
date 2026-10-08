@@ -1,0 +1,365 @@
+[
+  {
+    "query": "how do I frame a contribution without overclaiming results",
+    "relevant_doc_ids": [
+      "01_framing_contributions_intro_cs.md",
+      "02_avoiding_overclaiming_general.md",
+      "09_contribution_patterns_general.md"
+    ],
+    "field": "general",
+    "section_type": "intro",
+    "id": "q_001"
+  },
+  {
+    "query": "synthesize related work instead of just listing papers",
+    "relevant_doc_ids": [
+      "03_related_work_synthesis_cs.md"
+    ],
+    "field": "cs",
+    "section_type": "related_work",
+    "id": "q_002"
+  },
+  {
+    "query": "writing clear methods sections for biology",
+    "relevant_doc_ids": [
+      "04_methods_clarity_biology.md"
+    ],
+    "field": "biology",
+    "section_type": "methods",
+    "id": "q_003"
+  },
+  {
+    "query": "how to separate discussion from results",
+    "relevant_doc_ids": [
+      "05_discussion_vs_results_general.md"
+    ],
+    "field": "general",
+    "section_type": "results",
+    "id": "q_004"
+  },
+  {
+    "query": "using hedging language appropriately",
+    "relevant_doc_ids": [
+      "06_hedging_language_general.md"
+    ],
+    "field": "general",
+    "section_type": "discussion",
+    "id": "q_005"
+  },
+  {
+    "query": "anticipating reviewer objections in computer science",
+    "relevant_doc_ids": [
+      "07_reviewer_objections_cs.md"
+    ],
+    "field": "cs",
+    "section_type": "discussion",
+    "id": "q_006"
+  },
+  {
+    "query": "structure of an economics introduction",
+    "relevant_doc_ids": [
+      "08_intro_structure_economics.md"
+    ],
+    "field": "economics",
+    "section_type": "intro",
+    "id": "q_007"
+  },
+  {
+    "query": "writing explicit contribution statements",
+    "relevant_doc_ids": [
+      "09_contribution_patterns_general.md"
+    ],
+    "field": "general",
+    "section_type": "intro",
+    "id": "q_008"
+  },
+  {
+    "query": "effective citation practices",
+    "relevant_doc_ids": [
+      "10_citation_practices_general.md"
+    ],
+    "field": "general",
+    "section_type": "related_work",
+    "id": "q_009"
+  },
+  {
+    "query": "building narrative in biology results",
+    "relevant_doc_ids": [
+      "11_results_narrative_biology.md"
+    ],
+    "field": "biology",
+    "section_type": "results",
+    "id": "q_010"
+  },
+  {
+    "query": "reproducibility in computer science methods",
+    "relevant_doc_ids": [
+      "12_methods_reproducibility_cs.md"
+    ],
+    "field": "cs",
+    "section_type": "methods",
+    "id": "q_011"
+  },
+  {
+    "query": "avoiding structural drift",
+    "relevant_doc_ids": [
+      "13_structure_drifting_general.md"
+    ],
+    "field": "general",
+    "section_type": "methods",
+    "id": "q_012"
+  },
+  {
+    "query": "managing jargon in academic writing",
+    "relevant_doc_ids": [
+      "14_jargon_management_general.md"
+    ],
+    "field": "general",
+    "section_type": "intro",
+    "id": "q_013"
+  },
+  {
+    "query": "getting discussion length right",
+    "relevant_doc_ids": [
+      "15_discussion_length_general.md"
+    ],
+    "field": "general",
+    "section_type": "discussion",
+    "id": "q_014"
+  },
+  {
+    "query": "controlling sentence length",
+    "relevant_doc_ids": [
+      "16_sentence_length_general.md"
+    ],
+    "field": "general",
+    "section_type": "intro",
+    "id": "q_015"
+  },
+  {
+    "query": "self-citation ethics and strategy",
+    "relevant_doc_ids": [
+      "17_self_citation_ethics.md"
+    ],
+    "field": "general",
+    "section_type": "related_work",
+    "id": "q_016"
+  },
+  {
+    "query": "making figures work in results",
+    "relevant_doc_ids": [
+      "18_results_figures_general.md"
+    ],
+    "field": "general",
+    "section_type": "results",
+    "id": "q_017"
+  },
+  {
+    "query": "writing effective conclusions",
+    "relevant_doc_ids": [
+      "19_conclusion_writing_general.md"
+    ],
+    "field": "general",
+    "section_type": "conclusion",
+    "id": "q_018"
+  },
+  {
+    "query": "strategic revision for academic papers",
+    "relevant_doc_ids": [
+      "20_revision_strategy_general.md"
+    ],
+    "field": "general",
+    "section_type": "methods",
+    "id": "q_019"
+  },
+  {
+    "query": "overclaiming in biology results",
+    "relevant_doc_ids": [
+      "21_overclaiming_results_biology.md"
+    ],
+    "field": "biology",
+    "section_type": "results",
+    "id": "q_020"
+  },
+  {
+    "query": "identifying and articulating the research gap",
+    "relevant_doc_ids": [
+      "22_related_work_gap_cs.md"
+    ],
+    "field": "cs",
+    "section_type": "related_work",
+    "id": "q_021"
+  },
+  {
+    "query": "statistical methods in economics papers",
+    "relevant_doc_ids": [
+      "23_methods_statistical_economics.md"
+    ],
+    "field": "economics",
+    "section_type": "methods",
+    "id": "q_022"
+  },
+  {
+    "query": "opening your paper with a strong hook",
+    "relevant_doc_ids": [
+      "24_intro_hook_general.md"
+    ],
+    "field": "general",
+    "section_type": "intro",
+    "id": "q_023"
+  },
+  {
+    "query": "discussing mechanisms in biology papers",
+    "relevant_doc_ids": [
+      "25_discussion_mechanisms_biology.md"
+    ],
+    "field": "biology",
+    "section_type": "discussion",
+    "id": "q_024"
+  },
+  {
+    "query": "academic paragraph structure",
+    "relevant_doc_ids": [
+      "26_paragraph_structure_general.md"
+    ],
+    "field": "general",
+    "section_type": "intro",
+    "id": "q_025"
+  },
+  {
+    "query": "writing abstracts that get papers read",
+    "relevant_doc_ids": [
+      "27_abstract_writing_general.md"
+    ],
+    "field": "general",
+    "section_type": "intro",
+    "id": "q_026"
+  },
+  {
+    "query": "designing effective results tables",
+    "relevant_doc_ids": [
+      "28_table_design_general.md"
+    ],
+    "field": "general",
+    "section_type": "results",
+    "id": "q_027"
+  },
+  {
+    "query": "writing substantive future work sections",
+    "relevant_doc_ids": [
+      "29_future_work_general.md"
+    ],
+    "field": "general",
+    "section_type": "conclusion",
+    "id": "q_028"
+  },
+  {
+    "query": "preparing your paper for peer review",
+    "relevant_doc_ids": [
+      "30_peer_review_response_general.md"
+    ],
+    "field": "general",
+    "section_type": "discussion",
+    "id": "q_029"
+  },
+  {
+    "query": "achieving clarity in complex methods",
+    "relevant_doc_ids": [
+      "31_writing_methods_clarity.md"
+    ],
+    "field": "general",
+    "section_type": "methods",
+    "id": "q_030"
+  },
+  {
+    "query": "presenting negative results honestly",
+    "relevant_doc_ids": [
+      "32_handling_negative_results.md"
+    ],
+    "field": "general",
+    "section_type": "results",
+    "id": "q_031"
+  },
+  {
+    "query": "writing for interdisciplinary audiences",
+    "relevant_doc_ids": [
+      "33_writing_for_interdisciplinary.md"
+    ],
+    "field": "general",
+    "section_type": "intro",
+    "id": "q_032"
+  },
+  {
+    "query": "identification strategy presentation",
+    "relevant_doc_ids": [
+      "34_economics_identification.md"
+    ],
+    "field": "economics",
+    "section_type": "methods",
+    "id": "q_033"
+  },
+  {
+    "query": "experimental design in cs papers",
+    "relevant_doc_ids": [
+      "35_cs_experimental_design.md"
+    ],
+    "field": "cs",
+    "section_type": "methods",
+    "id": "q_034"
+  },
+  {
+    "query": "preparing for the rebuttal process",
+    "relevant_doc_ids": [
+      "36_writing_rebuttals.md"
+    ],
+    "field": "general",
+    "section_type": "discussion",
+    "id": "q_035"
+  },
+  {
+    "query": "interpreting computational results",
+    "relevant_doc_ids": [
+      "37_results_interpretation_cs.md"
+    ],
+    "field": "cs",
+    "section_type": "results",
+    "id": "q_036"
+  },
+  {
+    "query": "calibrating literature review depth",
+    "relevant_doc_ids": [
+      "38_lit_review_depth.md"
+    ],
+    "field": "general",
+    "section_type": "related_work",
+    "id": "q_037"
+  },
+  {
+    "query": "data visualization best practices",
+    "relevant_doc_ids": [
+      "39_data_visualization_general.md"
+    ],
+    "field": "general",
+    "section_type": "results",
+    "id": "q_038"
+  },
+  {
+    "query": "presenting theoretical frameworks",
+    "relevant_doc_ids": [
+      "40_theoretical_framework.md"
+    ],
+    "field": "general",
+    "section_type": "methods",
+    "id": "q_039"
+  },
+  {
+    "query": "general tips for hedging and reviewer response",
+    "relevant_doc_ids": [
+      "06_hedging_language_general.md",
+      "30_peer_review_response_general.md"
+    ],
+    "field": "general",
+    "section_type": "discussion",
+    "id": "q_040"
+  }
+]

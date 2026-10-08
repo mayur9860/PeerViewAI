@@ -1,0 +1,2316 @@
+{
+  "summary": {
+    "Random": {
+      "overall": {
+        "top1": 0.16,
+        "top2": 0.38
+      },
+      "by_level": {
+        "novice": {
+          "top1": 0.14,
+          "top2": 0.34
+        },
+        "intermediate": {
+          "top1": 0.2,
+          "top2": 0.38
+        },
+        "advanced": {
+          "top1": 0.14,
+          "top2": 0.42
+        }
+      }
+    },
+    "Longest-untouched": {
+      "overall": {
+        "top1": 0.82,
+        "top2": 0.9
+      },
+      "by_level": {
+        "novice": {
+          "top1": 0.46,
+          "top2": 0.7
+        },
+        "intermediate": {
+          "top1": 1.0,
+          "top2": 1.0
+        },
+        "advanced": {
+          "top1": 1.0,
+          "top2": 1.0
+        }
+      }
+    },
+    "GMM+XGBoost": {
+      "overall": {
+        "top1": 0.22666666666666666,
+        "top2": 0.48
+      },
+      "by_level": {
+        "novice": {
+          "top1": 0.22,
+          "top2": 0.62
+        },
+        "intermediate": {
+          "top1": 0.22,
+          "top2": 0.4
+        },
+        "advanced": {
+          "top1": 0.24,
+          "top2": 0.42
+        }
+      }
+    }
+  },
+  "details": [
+    {
+      "level": "novice",
+      "seed": 0,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 1,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 2,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 3,
+      "ground_truth": "related_work",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 4,
+      "ground_truth": "methods",
+      "random_top1": true,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 5,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 6,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 7,
+      "ground_truth": "methods",
+      "random_top1": true,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 8,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 9,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 10,
+      "ground_truth": "related_work",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 11,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 12,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 13,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 14,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 15,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 16,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 17,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 18,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 19,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 20,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 21,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 22,
+      "ground_truth": "related_work",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 23,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 24,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 25,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 26,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 27,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 28,
+      "ground_truth": "intro",
+      "random_top1": true,
+      "longest_top1": false,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 29,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 30,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 31,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 32,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 33,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 34,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 35,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 36,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 37,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 38,
+      "ground_truth": "related_work",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 39,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 40,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 41,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 42,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 43,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 44,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 45,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 46,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 47,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 48,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": false,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "novice",
+      "seed": 49,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 0,
+      "ground_truth": "intro",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 1,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 2,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 3,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 4,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 5,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 6,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 7,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 8,
+      "ground_truth": "discussion",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 9,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 10,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 11,
+      "ground_truth": "related_work",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 12,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 13,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 14,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 15,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 16,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 17,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 18,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 19,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 20,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 21,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 22,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 23,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 24,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 25,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 26,
+      "ground_truth": "related_work",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 27,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 28,
+      "ground_truth": "discussion",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 29,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 30,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 31,
+      "ground_truth": "methods",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 32,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 33,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 34,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 35,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 36,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 37,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 38,
+      "ground_truth": "results",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 39,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 40,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 41,
+      "ground_truth": "results",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 42,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 43,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 44,
+      "ground_truth": "methods",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 45,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 46,
+      "ground_truth": "results",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 47,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 48,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "seed": 49,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 0,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 1,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 2,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 3,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 4,
+      "ground_truth": "related_work",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 5,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 6,
+      "ground_truth": "intro",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 7,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 8,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 9,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 10,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 11,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 12,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 13,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 14,
+      "ground_truth": "results",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 15,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 16,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 17,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 18,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 19,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 20,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 21,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 22,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 23,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 24,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 25,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 26,
+      "ground_truth": "methods",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 27,
+      "ground_truth": "methods",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 28,
+      "ground_truth": "discussion",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 29,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 30,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 31,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 32,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 33,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 34,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 35,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 36,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 37,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 38,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 39,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 40,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 41,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 42,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 43,
+      "ground_truth": "intro",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": true,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 44,
+      "ground_truth": "methods",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 45,
+      "ground_truth": "discussion",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 46,
+      "ground_truth": "methods",
+      "random_top1": true,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 47,
+      "ground_truth": "results",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 48,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    },
+    {
+      "level": "advanced",
+      "seed": 49,
+      "ground_truth": "related_work",
+      "random_top1": false,
+      "longest_top1": true,
+      "model_top1": false,
+      "model_res": [
+        "intro",
+        "related_work",
+        "methods",
+        "results",
+        "discussion"
+      ]
+    }
+  ]
+}

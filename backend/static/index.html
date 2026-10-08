@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PeerReview AI — Academic writing coach with Socratic critique, archetype profiling, and craft guidance search.">
+    <title>PeerReview AI — Academic Writing Coach</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- KaTeX CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <header class="top-bar" id="top-bar">
+        <div class="logo">
+            <div class="logo-icon">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <circle cx="14" cy="14" r="12" stroke="url(#logoGrad)" stroke-width="2.5"/>
+                    <path d="M9 14.5L12.5 18L19 11" stroke="url(#logoGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <defs>
+                        <linearGradient id="logoGrad" x1="0" y1="0" x2="28" y2="28">
+                            <stop stop-color="#818cf8"/>
+                            <stop offset="1" stop-color="#c084fc"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <h1>PeerReview <span class="accent">AI</span></h1>
+        </div>
+        <div class="top-bar-actions">
+            <div class="user-badge" id="user-badge">
+                <span class="user-email" id="user-email">No user</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content: Three Panels -->
+    <main class="app-layout" id="app-layout">
+        <!-- Panel 1: Draft Manager -->
+        <aside class="panel panel-drafts" id="panel-drafts">
+            <div class="panel-header">
+                <h2>📄 Draft Manager</h2>
+                <button class="btn btn-sm btn-primary" id="btn-new-draft" title="Create new draft">+ New</button>
+            </div>
+
+            <!-- User setup (shown first) -->
+            <div class="card" id="user-setup-card">
+                <h3>Get Started</h3>
+                <div class="form-group">
+                    <label for="input-email">Email</label>
+                    <input type="email" id="input-email" placeholder="you@university.edu" />
+                </div>
+                <button class="btn btn-primary btn-block" id="btn-create-user">Create Account</button>
+            </div>
+
+            <!-- New draft form (hidden initially) -->
+            <div class="card hidden" id="new-draft-card">
+                <h3>New Draft</h3>
+                <div class="form-group">
+                    <label for="input-title">Title</label>
+                    <input type="text" id="input-title" placeholder="Paper title" />
+                </div>
+                <div class="form-group">
+                    <label for="select-field">Field</label>
+                    <select id="select-field">
+                        <option value="cs">Computer Science</option>
+                        <option value="biology">Biology</option>
+                        <option value="economics">Economics</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <button class="btn btn-primary" id="btn-submit-draft">Create</button>
+                    <button class="btn btn-ghost" id="btn-cancel-draft">Cancel</button>
+                </div>
+            </div>
+
+            <!-- Draft list -->
+            <div class="draft-list" id="draft-list">
+                <p class="empty-state">No drafts yet</p>
+            </div>
+
+            <!-- Section editor (shown when draft selected) -->
+            <div class="card hidden" id="section-editor">
+                <h3 id="section-editor-title">Edit Section</h3>
+                <div class="form-group">
+                    <label for="select-section-type">Section Type</label>
+                    <select id="select-section-type">
+                        <option value="intro">Introduction</option>
+                        <option value="related_work">Related Work</option>
+                        <option value="methods">Methods</option>
+                        <option value="results">Results</option>
+                        <option value="discussion">Discussion</option>
+                        <option value="conclusion">Conclusion</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="textarea-section">Content</label>
+                    <textarea id="textarea-section" rows="10" placeholder="Paste your section text here..."></textarea>
+                </div>
+                <div class="form-row">
+                    <button class="btn btn-primary" id="btn-save-section">Save Section</button>
+                    <button class="btn btn-accent" id="btn-analyze">🔬 Analyze</button>
+                </div>
+            </div>
+
+            <!-- Search guidance -->
+            <div class="card" id="search-card" style="margin-top: 12px;">
+                <h3>🔍 Craft Guidance Search</h3>
+                <div class="form-group">
+                    <input type="text" id="input-search" placeholder="e.g. how to avoid overclaiming" />
+                </div>
+                <button class="btn btn-primary btn-block" id="btn-search">Search</button>
+                <div class="search-results" id="search-results"></div>
+            </div>
+        </aside>
+
+        <!-- Panel 2: Recommendations -->
+        <section class="panel panel-recommend" id="panel-recommend">
+            <div class="panel-header">
+                <h2>📊 Recommendations</h2>
+            </div>
+
+            <!-- Archetype display -->
+            <div class="archetype-display hidden" id="archetype-display">
+                <div class="archetype-badge" id="archetype-badge">
+                    <span class="archetype-label" id="archetype-label">—</span>
+                    <span class="archetype-confidence" id="archetype-confidence">0%</span>
+                </div>
+                <div class="archetype-desc" id="archetype-desc"></div>
+            </div>
+
+            <!-- Ranked section list -->
+            <div class="ranked-sections" id="ranked-sections">
+                <div class="empty-state">
+                    <div class="empty-icon">📋</div>
+                    <p>Analyze a draft to see revision priorities</p>
+                </div>
+            </div>
+
+            <!-- Feature radar/details -->
+            <div class="features-display hidden" id="features-display">
+                <h3>Feature Snapshot</h3>
+                <div class="features-grid" id="features-grid"></div>
+            </div>
+        </section>
+
+        <!-- Panel 3: Critique Chat -->
+        <section class="panel panel-critique" id="panel-critique">
+            <div class="panel-header">
+                <h2>💬 Socratic Critique</h2>
+                <span class="critique-status" id="critique-status"></span>
+            </div>
+
+            <div class="chat-container" id="chat-container">
+                <div class="empty-state">
+                    <div class="empty-icon">🎓</div>
+                    <p>Click a section in the recommendations panel to start a critique session</p>
+                </div>
+            </div>
+
+            <!-- Critique history -->
+            <div class="critique-history hidden" id="critique-history">
+                <h3>Session History</h3>
+                <div id="history-list"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Loading overlay -->
+    <div class="loading-overlay hidden" id="loading-overlay">
+        <div class="loading-spinner"></div>
+        <p class="loading-text" id="loading-text">Processing...</p>
+    </div>
+
+    <!-- Toast notifications -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
